@@ -37,7 +37,7 @@ And in return, exposing this would actually make these users with the canvas blo
 
 &nbsp;
 
-Finally, let's talk about the privacy implications of a canvas fingerprinting countermeasure like these blockers.
+So yeah... It's worth talking about the privacy implications of a canvas fingerprinting countermeasure like these blockers.
 
 Very few users toggle the hidden `privacy.resistFingerprinting` flag in Firefox or use an extension like Canvas Defender (around 40k as of this writing if you check the download statistics on Chrome's Extensions Store) 
 Meaning that if you're detected with a blocked canvas, this in and of itself would make you A LOT more unique. (3bil internet users / 40,000 blocked canvases. You do the math.) 
