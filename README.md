@@ -42,7 +42,7 @@ So yeah... It's worth talking about the privacy implications of a canvas fingerp
 Very few users toggle the hidden `privacy.resistFingerprinting` flag in Firefox or use an extension like Canvas Defender (around 40k as of this writing if you check the download statistics on Chrome's Extensions Store) 
 Meaning that if you're detected with a blocked canvas, this in and of itself would make you A LOT more unique. (3bil internet users / 40,000 blocked canvases. You do the math.) 
 
-While I get that the mission here is to increase user privacy by blocking the canvas, this can easily be used against the users to track them more easily, unless this technique is deployed by default on all browsers. Which they can't. *Because it's the fucking canvas.* It's a part of the [HTML spec](https://www.w3.org/TR/2dcontext/), we live in a post-Flash world and almost every web-based game uses the canvas nowadays. 
+While I get that the mission here is to increase user privacy by blocking the canvas, this can easily be weaponized against the users to track them more easily, unless this technique is deployed by default on all browsers. Which they can't. *Because it's the fucking canvas.* It's a part of the [HTML spec](https://www.w3.org/TR/2dcontext/), we live in a post-Flash world and almost every web-based game uses the canvas nowadays. 
 
 As someone who was trying to make good use of the `canvas`, to provide users a privacy service, this whole blocked canvas situation meant that I had to find a way to show my users a fucking ugly and ironic banner to turn off their "privacy extension", and to do so, first I had to find a way to detect if the canvas is blocked.
 
